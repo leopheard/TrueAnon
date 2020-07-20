@@ -3,7 +3,6 @@ from resources.lib import mainaddon
 
 plugin = Plugin()
 URL = "https://feeds.soundcloud.com/users/soundcloud:users:672423809/sounds.rss"
-
 @plugin.route('/')
 def main_menu():
     items = [
