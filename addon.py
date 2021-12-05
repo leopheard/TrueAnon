@@ -9,11 +9,11 @@ def main_menu():
    {
             'label': plugin.get_string(30001),
             'path': plugin.url_for('latest_episodes'),
-            'thumbnail': "https://i1.sndcdn.com/avatars-000661655861-p32bcw-t500x500.jpg"},
+            'thumbnail': "https://github.com/leopheard/trueanonpatreon/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30000),
             'path': plugin.url_for('all_episodes'),
-            'thumbnail': "https://i1.sndcdn.com/avatars-000661655861-p32bcw-t500x500.jpg"},
+            'thumbnail': "https://github.com/leopheard/trueanonpatreon/blob/master/resources/media/icon.jpg?raw=true"},
    ]
     return items
 
